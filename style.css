@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@1&family=Montserrat:wght@600&family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#b3b3b3
+    
+    
+    
+}
+
+.main__titulo {
+    color: #000000;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 90px;
+}
+.main__titulo span{
+    position: relative;
+
+}
+
+.main__titulo span::before{
+    content: "";
+    color: #000000;
+    animation: nomes 20s infinite;
+}
+
+@keyframes nomes {
+    0%,20%{
+        content: "INFAMOUS";
+    }
+    21%,40% {
+        content: "HOXFUNTER";
+    }
+    41%,60% { 
+        content: "NATILLY"
+    }
+    61%,80% {
+        content: "KARMADRIP"
+    }
+    81%,100% {
+        content: url("denji.jpg");
+    }
+}
+
+.main__subtitulo {
+    color: #000000;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    gap: 10px;
+    padding: 1px;
+    
+
+}
+
+.main__titulo3 {
+    color: 0000;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+}
+
+.cor {
+    color: rgb(114, 4, 165);
+}
+
+.main__subsub {
+    color: #000000;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    
+    
+    
+}
+.main {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem {
+   
+    width: 80%;
+    margin: 5% 5% 5% 5%; 
+    border-radius: 2%;
+    opacity: 0.5;
+
+    
+}
+.imagem:hover {
+    opacity: 1.0;
+
+}
+
+
+p {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.botao__link {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 8px;
+
+}
+
+
+
+
+.botao__link__navegaçao {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1px;
+    width: 110px;
+    text-align: center;
+    border: 2px solid #000000;
+    padding: 5px;
+    border-radius: 6%;
+
+}
+
+.botao__link__navegaçao:hover {
+    background-color:#9347b6; 
+    
+    
+    
+
+}
